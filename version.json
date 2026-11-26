@@ -1,0 +1,7 @@
+{
+    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v19/TikTok_You-5.0(47.4.3).apk",
+    "sha256":  "B0A03F06B978C5998E10C007E174A86F6C3B3E2DD83EBF1F3194E61D85768493",
+    "build":  19,
+    "version":  "v19-updater",
+    "notes":  "Автопропуск немых и сленговых баннеров (Wonder case, Skin Holder, ggsel, Rub App), ускорение и экономия токенов, автопроверка обновлений."
+}
