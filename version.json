@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v21/TikTok_You-5.0(47.4.3).apk",
-    "sha256":  "0FF46896C0B82F506ED624CED36F61F6C8C0928C09157E3F19377BC9D5BD830B",
-    "build":  21,
-    "version":  "v21",
-    "notes":  "Улучшено распознавание англоязычных спонсорских фраз (налоговые вычеты, суммы возврата/бонусов)."
+    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v22/TikTok_You-5.0(47.4.3).apk",
+    "sha256":  "DD2DCADF077DF9B50DB1A4A9A12FA681BA1F7CA0C84B3B34428318E4E7CA15C2",
+    "build":  22,
+    "version":  "v22",
+    "notes":  "Исправлено распознавание формулировок с открытием кейсов (open cases / CS2 cases), раздельная верификация нескольких вставок в одном окне (чтобы вторая реклама не терялась)."
 }
