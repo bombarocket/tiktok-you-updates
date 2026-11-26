@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v20/TikTok_You-5.0(47.4.3).apk",
-    "sha256":  "A0A0B81702BA774ABA454E03923A8D69BD67B33E77A989CDCAF0BCFDEEC2B81B",
-    "build":  20,
-    "version":  "v20",
-    "notes":  "Добавлены Gemini 3.5-flash-lite / 3.5-flash / 3.7-flash (без устаревших 2.5-404) и расширен OpenRouter (:free модели с видео/кадрами: Gemma 4 31B/26B, Nemotron 3.5/3, Ling, Particle)."
+    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v21/TikTok_You-5.0(47.4.3).apk",
+    "sha256":  "0FF46896C0B82F506ED624CED36F61F6C8C0928C09157E3F19377BC9D5BD830B",
+    "build":  21,
+    "version":  "v21",
+    "notes":  "Улучшено распознавание англоязычных спонсорских фраз (налоговые вычеты, суммы возврата/бонусов)."
 }
