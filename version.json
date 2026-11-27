@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v27/TikTok_You-5.0(47.4.3).apk",
-    "sha256":  "557F086DDDD15CB9BD8C36EF2C24256BCA46698B7F243BD11A64F4F19BEE3221",
-    "build":  27,
-    "version":  "v27",
-    "notes":  "Fix AAC priming (elst) in SpeechPcm, live VPN offer recognition without URLs, auto-skip short standalone ads, offline cached-video banner fallback, cold-start Activity recovery for Updater/seek, multi-ad (2-4+) auto-skip \u0026 RU/EN system locale UI."
+    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v28/TikTok_You-5.0(47.4.3).apk",
+    "sha256":  "3689BBB0181CD064D4AD37F447D23064E3E9ECEEDDF48302377CC0FDC2C25389",
+    "build":  28,
+    "version":  "v28",
+    "notes":  "Улучшено распознавание новых рекламных баннеров и офферов (апгрейд подарков/скинов, кейсы, уточнение Stage 1/2 фильтров)."
 }
