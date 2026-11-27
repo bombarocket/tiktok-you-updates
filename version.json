@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v22/TikTok_You-5.0(47.4.3).apk",
-    "sha256":  "DD2DCADF077DF9B50DB1A4A9A12FA681BA1F7CA0C84B3B34428318E4E7CA15C2",
-    "build":  22,
-    "version":  "v22",
-    "notes":  "Исправлено распознавание формулировок с открытием кейсов (open cases / CS2 cases), раздельная верификация нескольких вставок в одном окне (чтобы вторая реклама не терялась)."
+    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v24/TikTok_You-5.0(47.4.3).apk",
+    "sha256":  "D9D48CAB57856087E65ED1DE3CA78543C4D7C354E422492C3F3A4F529E10603F",
+    "build":  24,
+    "version":  "v24",
+    "notes":  "English + Russian UI matching system locale, parallel offline OCR+Vosk without internet, multi-ad auto-skip fix (2-4+ ads per video), reliable in-app update prompt."
 }
