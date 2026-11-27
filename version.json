@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v24/TikTok_You-5.0(47.4.3).apk",
-    "sha256":  "D9D48CAB57856087E65ED1DE3CA78543C4D7C354E422492C3F3A4F529E10603F",
-    "build":  24,
-    "version":  "v24",
-    "notes":  "English + Russian UI matching system locale, parallel offline OCR+Vosk without internet, multi-ad auto-skip fix (2-4+ ads per video), reliable in-app update prompt."
+    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v25/TikTok_You-5.0(47.4.3).apk",
+    "sha256":  "1813D1826EA2E2CC85AC1BAD6293586F9D467E1D689846D3DC5D865E2AE2DB40",
+    "build":  25,
+    "version":  "v25",
+    "notes":  "RU+EN live VPN offer detection, auto-skip for short standalone ads, offline cached-video banner fallback, multi-ad (2-4+) auto-skip \u0026 reliable cold-boot update prompt."
 }
