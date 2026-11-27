@@ -1,7 +1,7 @@
 {
-    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v25/TikTok_You-5.0(47.4.3).apk",
-    "sha256":  "1813D1826EA2E2CC85AC1BAD6293586F9D467E1D689846D3DC5D865E2AE2DB40",
-    "build":  25,
-    "version":  "v25",
-    "notes":  "RU+EN live VPN offer detection, auto-skip for short standalone ads, offline cached-video banner fallback, multi-ad (2-4+) auto-skip \u0026 reliable cold-boot update prompt."
+    "apkUrl":  "https://github.com/bombarocket/tiktok-you-updates/releases/download/v27/TikTok_You-5.0(47.4.3).apk",
+    "sha256":  "557F086DDDD15CB9BD8C36EF2C24256BCA46698B7F243BD11A64F4F19BEE3221",
+    "build":  27,
+    "version":  "v27",
+    "notes":  "Fix AAC priming (elst) in SpeechPcm, live VPN offer recognition without URLs, auto-skip short standalone ads, offline cached-video banner fallback, cold-start Activity recovery for Updater/seek, multi-ad (2-4+) auto-skip \u0026 RU/EN system locale UI."
 }
