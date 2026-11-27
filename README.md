@@ -1,8 +1,8 @@
-# TikTok You — AI Embedded Ad Skipper (v24)
+# TikTok You — AI Embedded Ad Skipper (v27)
 
 An enhanced build based on **TikTok You 5.0 (47.4.3)** that automatically detects and skips embedded sponsor integrations inside TikTok videos while keeping all original mod features intact.
 
-> **Latest Release:** [v24](https://github.com/bombarocket/tiktok-you-updates/releases/tag/v24) · [Direct APK Download](https://github.com/bombarocket/tiktok-you-updates/releases/download/v24/TikTok_You-5.0(47.4.3).apk)
+> **Latest Release:** [v27](https://github.com/bombarocket/tiktok-you-updates/releases/tag/v27) · [Direct APK Download](https://github.com/bombarocket/tiktok-you-updates/releases/download/v27/TikTok_You-5.0(47.4.3).apk)
 
 ---
 
@@ -12,7 +12,7 @@ An enhanced build based on **TikTok You 5.0 (47.4.3)** that automatically detect
   - Automatically matches your system language (`Mod Settings › AI Ad Skipper` in English, `Настройки мода › Автопропуск рекламы` in Russian) — all toggles, notes, skip chips, error notices, and updater dialogs adapt cleanly.
 - **Embedded Ad & Silent Banner Detection (Multi-Ad Ready)**
   - Detects both **spoken sponsorships** and **silent animated banner overlays** (VPNs, case-opening / drop / skin-trading services, marketplaces, Telegram bots, mobile/reward apps) even when there is no URL, @handle, or voiceover.
-  - Supports **2, 3, 4+ separate or back-to-back ad breaks** in a single video without post-skip cooldown interference.
+  - Supports **2, 3, 4+ separate or back-to-back ad breaks** (including short standalone ad clips inside videos and live conversational VPN recommendations) without post-skip cooldown interference.
   - Rejects bare brand mentions, clothing logos, film/anime edits, and ordinary story dialogue to avoid false skips.
 - **Frame-Accurate Boundaries & Playback Controls**
   - Uses local video frames and real presentation timestamps (PTS) to pinpoint banner entrance/exit.
@@ -21,7 +21,7 @@ An enhanced build based on **TikTok You 5.0 (47.4.3)** that automatically detect
 - **Multiple AI Providers & Stronger Offline Mode (No Internet)**
   - **Google Gemini (Free Tier):** `gemini-3.1-flash-lite`, `gemini-3.5-flash-lite`, `gemini-3.5-flash`, `gemini-3.6-flash`, `gemini-3.7-flash`, `gemini-3.8-flash`, `gemini-3-flash-preview` with automatic model rotation on 429/503.
   - **OpenRouter (:free):** Supports free multimodal video/image models fetched live from OpenRouter (e.g. `google/gemma-4-31b-it:free`, `google/gemma-4-26b-a4b-it:free`, `nvidia/nemotron-3.5-super-vl:free`, etc.) using a separate OpenRouter key.
-  - **Offline Mode (Zero API / Zero Internet):** Built-in Russian **Vosk** speech model + **on-device Tesseract banner OCR** run in parallel on cached videos to catch and auto-skip both spoken offers and silent promotional cards even completely offline.
+  - **Offline Mode (Zero API / Zero Internet):** Built-in Russian **Vosk** speech model (with MP4 `elst`/AAC priming support and chunk-resilient decoding) + **on-device Tesseract banner OCR** run in parallel on cached videos — including automatic fallback to visual banner detection on cached video-only streams when audio is unavailable offline.
 - **Traffic & Token Optimization**
   - 1.5 fps discovery on Wi-Fi, 5 fps frame-proof verification, single-window scan up to 72s, and a **7-day local result cache** (cached videos skip instantly with zero API calls).
 - **Original Mod Features Preserved**
@@ -77,6 +77,6 @@ An enhanced build based on **TikTok You 5.0 (47.4.3)** that automatically detect
 
 ### 4. Офлайн-режим и запасные варианты
 
-- **Офлайн без интернета и без API:** в разделе **Локальная проверка · эксперимент** включите **Только локально: без API** (либо мод сам перейдёт в этот режим при отсутствии сети или лимите квоты). Одновременно работают встроенная модель русской речи **Vosk** и офлайн-распознавание рекламных баннеров (**OCR** по кешу видео) — уверенные рекламные вставки и баннеры пропускаются автоматически.
+- **Офлайн без интернета и без API:** в разделе **Локальная проверка · эксперимент** включите **Только локально: без API** (либо мод сам перейдёт в этот режим при отсутствии сети или лимите квоты). Одновременно работают встроенная модель русской речи **Vosk** (с поддержкой AAC `elst`-смещений и устойчивым декодированием) и офлайн-распознавание рекламных баннеров (**OCR** по кешу видео, даже если в кеше только видеопоток без звука) — уверенные рекламные вставки и баннеры пропускаются автоматически.
 - **OpenRouter (`:free`):** если квота Google закончилась или удобнее другой провайдер, выберите в **Сервис AI → OpenRouter · эксперимент**, вставьте отдельный бесплатный ключ OpenRouter, нажмите **Проверить модели и подключение** и выберите бесплатную мультимодальную модель (`:free`). Платные модели заблокированы на уровне кода.
 - **Обновления:** при выходе новой сборки мод покажет диалог обновления на экране, а вручную его можно проверить кнопкой **Проверить обновления** в разделе **Состояние**.
